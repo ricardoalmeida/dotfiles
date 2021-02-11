@@ -1,0 +1,54 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "[go]": {},
+  "go.gopath": "/Users/ricardoalmeida/go",
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "emmet.includeLanguages": {},
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "workbench.colorTheme": "Default Light+",
+  "[html]": {
+    "editor.defaultFormatter": "elixir-lsp.elixir-ls"
+  },
+  "files.associations": {
+    "*.ex": "elixir",
+    "*.exs": "elixir",
+    "*.eex": "EEx",
+    "*.html.EEx": "HTML (EEx)",
+    "*.html.leex": "HTML (EEx)"
+  },
+  "files.exclude": {
+    ".elixir_ls": true,
+    "**/_build": true,
+    "**/deps": true,
+    "**/target": true
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["postgres", "typegen", "vitrola"],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rust.cargoPath": "~/.cargo/bin",
+  "rust.mode": "legacy"
+}
