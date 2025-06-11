@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "node",
+      "args": ["/Users/ricardoalmeida/dev/weather/build/index.js"]
+    },
+    "thespacedevs": {
+      "command": "/Users/ricardoalmeida/dev/apollo-mcp-server/target/debug/apollo-mcp-server",
+      "args": [
+        "--directory",
+        "/Users/ricardoalmeida/dev/apollo-mcp-server/graphql/TheSpaceDevs",
+        "--schema",
+        "api.graphql",
+        "--operations",
+        "operations/ExploreCelestialBodies.graphql",
+        "operations/GetAstronautDetails.graphql",
+        "operations/SearchUpcomingLaunches.graphql",
+        "--endpoint",
+        "https://thespacedevs-production.up.railway.app/",
+        "--introspection"
+      ]
+    },
+    "prisma": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.prisma.io/mcp"]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": ["-y", "@openbnb/mcp-server-airbnb", "--ignore-robots-txt"]
+    }
+  }
+}
