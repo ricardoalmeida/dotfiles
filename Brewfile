@@ -32,18 +32,19 @@ brew 'kustomize'
 brew 'terraform'
 
 # zsh
-# brew 'zsh'
-# brew 'zsh-syntax-highlighting'
+brew 'zsh'
+brew 'zsh-syntax-highlighting'
 
 # Casks (GUI applications):
-# cask 'google-chrome'
-# cask 'slack'
-# cask 'spotify'
-# cask 'visual-studio-code'
-# cask 'warp'
-# cask 'altair-graphql-client'
-# cask 'hashicorp-boundary-desktop'
-# cask 'rancher'
-# cask 'sizeup'
-# cask 'arc'
-# cask raycast
+cask 'visual-studio-code'
+cask 'warp'
+cask 'arc'
+cask 'slack'
+cask 'pritunl'
+cask 'altair-graphql-client'
+cask 'google-chrome'
+cask 'spotify'
+cask 'hashicorp-boundary-desktop'
+cask 'rancher'
+cask 'sizeup'
+cask raycast

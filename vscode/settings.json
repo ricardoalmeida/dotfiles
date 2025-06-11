@@ -1,54 +1,180 @@
 {
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "go.autocompleteUnimportedPackages": true,
-  "go.formatTool": "goimports",
-  "go.useLanguageServer": true,
-  "[go]": {},
-  "go.gopath": "/Users/ricardoalmeida/go",
-  "explorer.confirmDragAndDrop": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "explorer.confirmDelete": false,
-  "emmet.includeLanguages": {},
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
+  "terminal.integrated.env.osx": {
+    "deno.enable": true,
+    "FIG_NEW_SESSION": "1"
   },
-  "workbench.colorTheme": "Default Light+",
-  "[html]": {
-    "editor.defaultFormatter": "elixir-lsp.elixir-ls"
-  },
-  "files.associations": {
-    "*.ex": "elixir",
-    "*.exs": "elixir",
-    "*.eex": "EEx",
-    "*.html.EEx": "HTML (EEx)",
-    "*.html.leex": "HTML (EEx)"
-  },
-  "files.exclude": {
-    ".elixir_ls": true,
-    "**/_build": true,
-    "**/deps": true,
-    "**/target": true
-  },
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "yaml.schemas": {},
+  "git.autofetch": true,
+  "redhat.telemetry.enabled": false,
+  "python.analysis.extraPaths": [],
   "editor.formatOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "ruby.codeCompletion": "rcodetools",
+  "[ruby]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.accessibilitySupport": "off",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "ruby.useLanguageServer": true,
+  "files.trimTrailingWhitespace": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.rulers": [
+    120
+  ],
+  "ruby.intellisense": "rubyLocate",
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  },
+  // "solargraph.autoformat": true,
+  "tabnine.experimentalAutoImports": true,
+  // "solargraph.diagnostics": true,
+  "json.schemas": [],
+  "svelte.enable-ts-plugin": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // "solargraph.formatting": true,
+  // "ruby.format": "rubocop",
+  "explorer.confirmDelete": false,
+  "python.autoComplete.extraPaths": [],
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "*.xls": "cweijan.officeViewer",
+    "{git,gitlens}:/**/*.{md,csv}": "default"
+  },
+  "cSpell.userWords": [
+    "backoffice",
+    "BIGBOSS",
+    "callysto",
+    "cloudinary",
+    "codegen",
+    "contentful",
+    "devsbb",
+    "hasura",
+    "kubectl",
+    "mainproductsku",
+    "microservices",
+    "nerdctl",
+    "nestjs",
+    "openapi",
+    "pino",
+    "Skus",
+    "Tempfile",
+    "upsert"
+  ],
+  "git.confirmSync": false,
+  "better-packages.semVerRange": "exact",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.userWords": ["postgres", "typegen", "vitrola"],
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "githubPullRequests.pullBranch": "never",
+  "editor.stickyScroll.enabled": true,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "Cargo.toml": "Cargo.lock",
+    "*.ts": "${capture}.typegen.ts",
+    "*.tsx": "${capture}.typegen.ts",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
   },
-  "rust.cargoPath": "~/.cargo/bin",
-  "rust.mode": "legacy"
+  "editor.language.colorizedBracketPairs": [],
+  "editor.fontWeight": "normal",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "debug.javascript.autoAttachFilter": "smart",
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "workbench.colorTheme": "Dracula Theme",
+  "datadog.telemetry.setup.suppressMigrationNotification": true,
+  "datadog.telemetry.setup.enableTelemetry": "enabled",
+  "datadog.timeRange.setup.timeFrame": "1h",
+  "mcp": {
+    "servers": {
+      "github": {
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "--rm",
+          "-e",
+          "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "ghcr.io/github/github-mcp-server"
+        ],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_token}"
+        }
+      },
+      "context7": {
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "--rm",
+          "mcp/context7"
+        ]
+      }
+    },
+    "inputs": [
+      {
+        "type": "promptString",
+        "id": "github_token",
+        "description": "GitHub Personal Access Token",
+        "password": true
+      }
+    ]
+  }
 }
