@@ -1,0 +1,77 @@
+color.ui=true
+color.branch.current=yellow reverse
+color.branch.local=yellow
+color.branch.remote=green
+color.diff.meta=yellow bold
+color.diff.frag=magenta bold
+color.diff.old=red
+color.diff.new=green
+alias.a=add
+alias.chunkyadd=add --patch
+alias.cleanup-merged=!git branch --format '%(refname:short) %(upstream:track)' | awk '$2 == [gone] { print $1 }' | xargs -r git branch -D
+alias.snapshot=!git stash save snapshot: $(date) && git stash apply stash@{0}
+alias.snapshots=!git stash list --grep snapshot
+alias.recent-branches=!git for-each-ref --count=15 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+alias.b=branch -v
+alias.c=commit -m
+alias.ca=commit -am
+alias.ci=commit
+alias.amend=commit --amend
+alias.ammend=commit --amend
+alias.co=checkout
+alias.nb=checkout -b
+alias.cp=cherry-pick -x
+alias.d=diff
+alias.dc=diff --cached
+alias.last=diff HEAD^
+alias.l=log --graph --date=short
+alias.changes=log --pretty=format:"%h %cr %cn %Cgreen%s%Creset" --name-status
+alias.short=log --pretty=format:"%h %cr %cn %Cgreen%s%Creset"
+alias.simple=log --pretty=format:" * %s"
+alias.shortnocolor=log --pretty=format:"%h %cr %cn %s"
+alias.pl=pull
+alias.ps=push
+alias.rc=rebase --continue
+alias.rs=rebase --skip
+alias.r=remote -v
+alias.unstage=reset HEAD
+alias.uncommit=reset --soft HEAD^
+alias.filelog=log -u
+alias.mt=mergetool
+alias.ss=stash
+alias.sl=stash list
+alias.sa=stash apply
+alias.sd=stash drop
+alias.s=status
+alias.st=status
+alias.stat=status
+alias.t=tag -n
+alias.svnr=svn rebase
+alias.svnd=svn dcommit
+alias.svnl=svn log --oneline --show-commit
+alias.recent=branch --sort=-committerdate
+format.pretty=format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+mergetool.prompt=false
+mergetool.mvimdiff.cmd=mvim -c 'Gdiff' $MERGED
+mergetool.mvimdiff.keepbackup=false
+merge.summary=true
+merge.verbosity=1
+merge.tool=mvimdiff
+apply.whitespace=nowarn
+branch.autosetupmerge=true
+push.default=upstream
+core.autocrlf=false
+core.editor=vim
+core.excludesfile=~/.gitignore
+advice.statushints=false
+diff.mnemonicprefix=true
+diff.algorithm=patience
+rerere.enabled=true
+include.path=.gitconfig.user
+user.name=ricardoalmeidagrover
+user.email=67692631+ricardoalmeidagrover@users.noreply.github.com
+init.defaultbranch=main
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
