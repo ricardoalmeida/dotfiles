@@ -2,10 +2,6 @@
 
 # config
 cask_args appdir: '/Applications'
-# taps
-tap 'homebrew/bundle'
-
-# Binaries
 
 ## Development tools
 brew 'git'
@@ -38,13 +34,12 @@ brew 'zsh-syntax-highlighting'
 # Casks (GUI applications):
 cask 'visual-studio-code'
 cask 'warp'
-cask 'arc'
 cask 'slack'
 cask 'pritunl'
 cask 'altair-graphql-client'
 cask 'google-chrome'
 cask 'spotify'
-cask 'hashicorp-boundary-desktop'
+cask 'hashicorp/tap/hashicorp-boundary-desktop'
 cask 'rancher'
 cask 'sizeup'
-cask raycast
+cask 'raycast'
