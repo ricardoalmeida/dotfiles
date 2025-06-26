@@ -19,6 +19,7 @@ brew 'uv'
 ## Text processing
 brew 'jq'
 brew 'tig'
+brew 'ag'
 
 ## Infrastructure/DevOps
 brew 'kind' # Kubernetes in Docker
@@ -26,6 +27,8 @@ brew 'kubectl'
 brew 'helm'
 brew 'kustomize'
 brew 'terraform'
+tap 'stacklok/tap'
+brew 'thv'
 
 # zsh
 brew 'zsh'
@@ -43,3 +46,7 @@ cask 'hashicorp/tap/hashicorp-boundary-desktop'
 cask 'rancher'
 cask 'sizeup'
 cask 'raycast'
+cask 'dbeaver-community'
+cast 'proxyman'
+cast 'discord'
+
