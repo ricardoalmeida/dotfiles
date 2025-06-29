@@ -1,22 +1,13 @@
 {
-  "terminal.integrated.env.osx": {
-    "deno.enable": true,
-    "FIG_NEW_SESSION": "1"
-  },
   "yaml.schemas": {},
   "git.autofetch": true,
   "redhat.telemetry.enabled": false,
   "python.analysis.extraPaths": [],
   "editor.formatOnSave": true,
   "editor.cursorBlinking": "expand",
-  "ruby.codeCompletion": "rcodetools",
   "[ruby]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
-  },
-  "editor.accessibilitySupport": "off",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "ruby.useLanguageServer": true,
   "files.trimTrailingWhitespace": true,
@@ -26,7 +17,6 @@
   "editor.rulers": [
     120
   ],
-  "ruby.intellisense": "rubyLocate",
   "yaml.customTags": [
     "!And",
     "!And sequence",
@@ -61,16 +51,11 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "never"
   },
-  // "solargraph.autoformat": true,
-  "tabnine.experimentalAutoImports": true,
-  // "solargraph.diagnostics": true,
   "json.schemas": [],
   "svelte.enable-ts-plugin": true,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  // "solargraph.formatting": true,
-  // "ruby.format": "rubocop",
   "explorer.confirmDelete": false,
   "python.autoComplete.extraPaths": [],
   "[yaml]": {
