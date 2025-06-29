@@ -1,52 +1,92 @@
 # frozen_string_literal: true
 
-# config
+# Configuration
 cask_args appdir: '/Applications'
 
-## Development tools
+# =============================================================================
+# DEVELOPMENT TOOLS
+# =============================================================================
+
+## Version Control
 brew 'git'
 brew 'gh' # GitHub CLI
+
+## DevOps & Infrastructure
 brew 'awscli'
-brew 'curl'
-
-### Languages
-brew 'node'
-brew 'yarn'
-brew 'asdf'
-brew 'uv'
-# brew 'rust'
-
-## Text processing
-brew 'jq'
-brew 'tig'
-brew 'ag'
-
-## Infrastructure/DevOps
+brew 'terraform'
 brew 'kind' # Kubernetes in Docker
 brew 'kubectl'
 brew 'helm'
 brew 'kustomize'
-brew 'terraform'
-tap 'stacklok/tap'
-brew 'thv'
 
-# zsh
+## Database
+brew 'postgresql'
+
+## Network & HTTP
+brew 'curl'
+
+# =============================================================================
+# PROGRAMMING LANGUAGES & RUNTIMES
+# =============================================================================
+
+## Node.js Ecosystem
+brew 'node'
+brew 'yarn'
+
+## Language Version Managers
+brew 'asdf'
+brew 'uv'
+# brew 'rust'
+
+# =============================================================================
+# TEXT PROCESSING & SEARCH
+# =============================================================================
+
+brew 'jq'
+brew 'tig'
+brew 'ag' # The Silver Searcher
+
+# =============================================================================
+# SHELL & TERMINAL
+# =============================================================================
+
 brew 'zsh'
 brew 'zsh-syntax-highlighting'
 
-# Casks (GUI applications):
+# =============================================================================
+# THIRD-PARTY TAPS
+# =============================================================================
+
+tap 'stacklok/tap'
+brew 'thv'
+
+# =============================================================================
+# GUI APPLICATIONS (CASKS)
+# =============================================================================
+
+## Development & Code
 cask 'visual-studio-code'
 cask 'warp'
-cask 'slack'
-cask 'pritunl'
 cask 'altair-graphql-client'
+cask 'dbeaver-community'
+
+## Communication & Collaboration
+cask 'slack'
+cask 'discord'
+
+## Browsers
 cask 'google-chrome'
-cask 'spotify'
+
+## DevOps & Infrastructure
+cask 'pritunl'
 cask 'hashicorp/tap/hashicorp-boundary-desktop'
 cask 'rancher'
-cask 'sizeup'
+cask 'proxyman'
+
+## Productivity
 cask 'raycast'
-cask 'dbeaver-community'
-cast 'proxyman'
-cast 'discord'
+cask 'sizeup'
+
+## Media & Entertainment
+cask 'spotify'
 
