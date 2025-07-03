@@ -10,6 +10,7 @@ cask_args appdir: '/Applications'
 ## Version Control
 brew 'git'
 brew 'gh' # GitHub CLI
+brew 'asdf'
 
 ## DevOps & Infrastructure
 brew 'awscli'
@@ -18,6 +19,11 @@ brew 'kind' # Kubernetes in Docker
 brew 'kubectl'
 brew 'helm'
 brew 'kustomize'
+
+# =============================================================================
+# SYSTEM UTILITIES
+brew 'libjpeg'
+brew 'libpng'
 
 ## Database
 brew 'postgresql'
@@ -32,10 +38,10 @@ brew 'curl'
 ## Node.js Ecosystem
 brew 'node'
 brew 'yarn'
+brew 'gemini-cli'
+brew 'uv'
 
 ## Language Version Managers
-brew 'asdf'
-brew 'uv'
 # brew 'rust'
 
 # =============================================================================
@@ -82,6 +88,7 @@ cask 'pritunl'
 cask 'hashicorp/tap/hashicorp-boundary-desktop'
 cask 'rancher'
 cask 'proxyman'
+cask 'google-cloud-sdk'
 
 ## Productivity
 cask 'raycast'
