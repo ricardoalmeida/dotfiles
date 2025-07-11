@@ -15,6 +15,7 @@ brew 'asdf'
 ## DevOps & Infrastructure
 brew 'awscli'
 brew 'terraform'
+brew 'terragrunt'
 brew 'kind' # Kubernetes in Docker
 brew 'kubectl'
 brew 'helm'
