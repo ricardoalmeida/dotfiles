@@ -21,6 +21,11 @@ brew 'kubectl'
 brew 'helm'
 brew 'kustomize'
 
+## AI development
+brew 'codex'
+brew 'gemini-cli'
+brew 'claude'
+
 # =============================================================================
 # SYSTEM UTILITIES
 brew 'libjpeg'
@@ -39,7 +44,6 @@ brew 'curl'
 ## Node.js Ecosystem
 brew 'node'
 brew 'yarn'
-brew 'gemini-cli'
 brew 'uv'
 
 ## Language Version Managers
