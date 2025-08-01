@@ -24,7 +24,6 @@ brew 'kustomize'
 ## AI development
 brew 'codex'
 brew 'gemini-cli'
-brew 'claude'
 
 # =============================================================================
 # SYSTEM UTILITIES
@@ -68,12 +67,15 @@ brew 'zsh-syntax-highlighting'
 # THIRD-PARTY TAPS
 # =============================================================================
 
-tap 'stacklok/tap'
-brew 'thv'
+brew 'stacklok/tap/thv'
 
 # =============================================================================
 # GUI APPLICATIONS (CASKS)
 # =============================================================================
+
+## AI
+
+cask "cursor"
 
 ## Development & Code
 cask 'visual-studio-code'
