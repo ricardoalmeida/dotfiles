@@ -8,3 +8,4 @@
 .claude/bun_enforecment.json
 .claude/eslint_errors.json
 .claude/settings_old_2.json
+.DS_Store

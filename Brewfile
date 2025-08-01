@@ -21,12 +21,15 @@ brew 'kubectl'
 brew 'helm'
 brew 'kustomize'
 
-## AI development
+## AI Development
 brew 'codex'
 brew 'gemini-cli'
 
 # =============================================================================
 # SYSTEM UTILITIES
+# =============================================================================
+
+## Libraries
 brew 'libjpeg'
 brew 'libpng'
 
@@ -74,8 +77,7 @@ brew 'stacklok/tap/thv'
 # =============================================================================
 
 ## AI
-
-cask "cursor"
+cask 'cursor'
 
 ## Development & Code
 cask 'visual-studio-code'
@@ -100,6 +102,7 @@ cask 'google-cloud-sdk'
 ## Productivity
 cask 'raycast'
 cask 'sizeup'
+cask 'block-goose' # Focus and website blocking tool
 
 ## Media & Entertainment
 cask 'spotify'
