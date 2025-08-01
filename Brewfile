@@ -38,6 +38,7 @@ brew 'postgresql'
 
 ## Network & HTTP
 brew 'curl'
+brew 'hurl'
 
 # =============================================================================
 # PROGRAMMING LANGUAGES & RUNTIMES
