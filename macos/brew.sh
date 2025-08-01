@@ -9,3 +9,4 @@ brew bundle
 # install global npm packages
 echo "[npm] installing global packages..."
 npm install -g @anthropic-ai/claude-code
+npm install -g tldr

@@ -78,10 +78,11 @@ brew 'stacklok/tap/thv'
 
 ## AI
 cask 'cursor'
+cask 'block-goose' # Focus and website blocking tool
+cask 'warp'
 
 ## Development & Code
 cask 'visual-studio-code'
-cask 'warp'
 cask 'altair-graphql-client'
 cask 'dbeaver-community'
 
@@ -102,7 +103,6 @@ cask 'google-cloud-sdk'
 ## Productivity
 cask 'raycast'
 cask 'sizeup'
-cask 'block-goose' # Focus and website blocking tool
 
 ## Media & Entertainment
 cask 'spotify'
