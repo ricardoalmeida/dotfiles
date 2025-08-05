@@ -20,6 +20,7 @@ brew 'kind' # Kubernetes in Docker
 brew 'kubectl'
 brew 'helm'
 brew 'kustomize'
+brew 'dagger/tap/container-use'
 
 ## AI Development
 brew 'codex'
